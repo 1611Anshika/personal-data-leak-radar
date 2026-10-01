@@ -1,0 +1,59 @@
+﻿# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Generated files
+protected/
+uploads/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing / cache
+.pytest_cache/
+# PDLR generated protection outputs
+backend/protected_outputs/
+
+# Local scan history
+backend/scan_history.json
+
+# Local test files
+backend/test_*.py
+backend/test_*.pdf
+backend/test_*.png
+backend/test_*.txt
+backend/ocr_test.png
+backend/protected_test_image.png
+backend/protected_selective.png
+# Local test files
+backend/test_*.py
+backend/test_*.pdf
+backend/test_*.png
+backend/test_*.txt
+backend/ocr_test.png
+backend/protected_test_image.png
+backend/protected_selective.png
+test3.png
+
+# Desktop agent test files
+desktop_agent/test_*.py
+
+backend/test3.pdf
